@@ -11,4 +11,4 @@ for line in range(100):
 mylist.pack(side=LEFT, fill=BOTH)
 scrollbar.config(command=mylist.yview)
 
-mainloop()
+root.mainloop()
