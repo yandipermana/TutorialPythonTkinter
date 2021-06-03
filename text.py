@@ -1,6 +1,6 @@
 from tkinter import *
 
-def onclick():
+def onclik():
     pass
 
 root = Tk()
@@ -14,3 +14,5 @@ text.tag_add("start", "1.8", "1.13")
 text.tag_config("here", background="yellow", foreground="blue")
 text.tag_config("start", background="black", foreground="green")
 root.mainloop()
+
+
